@@ -3,15 +3,22 @@
 
 <!-- PROJECT LOGO -->
 <br />
+<<<<<<< HEAD
 <p align="center">
     <img src="https://avatars.githubusercontent.com/u/73503432?v=4" alt="Logo" width="80" height="80" />
     <h3 align="center"><a href="https://learnwithsumit.com/courses/think-in-a-redux-way/setup-react-redux-project">THINK IN A REDUX WAY - MODULE 3 - LESSON 1</a></h3>
+=======
+ <p align="center">
+    <img src="https://avatars.githubusercontent.com/u/73503432?v=4" alt="Logo" width="80" height="80" />
+    <h3 align="center "><a href="https://learnwithsumit.com/courses/think-in-a-redux-way" target="_blank" >THINK IN A REDUX WAY</a></h3>
+>>>>>>> 92fc89a47352fa3642b6a7ec3ea578780306f453
 </p>
 
 <!-- TABLE OF CONTENTS -->
 
 ## ![tableOfContent][tableofcontent-shield] Table of Contents
 
+<<<<<<< HEAD
 | HTML TEMPLATE                            | CODE RUN                   | CONTACT                    |
 | ---------------------------------------- | -------------------------- | -------------------------- |
 | [Get HTML template](#-get-html-template) | [How to run](#-how-to-run) | [Contact us](#-contact-us) |
@@ -23,12 +30,23 @@
 ## ![htmlIcon][htmlicon-shield] Get HTML Template
 
 You can find the raw HTML template of the todo application from the "html_template" folder.
+=======
+| CODE RUN                   | CONTACT                    |
+| -------------------------- | -------------------------- |
+| [How to run](#-how-to-run) | [Contact us](#-contact-us) |
+>>>>>>> 92fc89a47352fa3642b6a7ec3ea578780306f453
 
 <!-- HOW TO RUN -->
 
 ## ![rocketIcon][rocketicon-shield] How to run
 
+<<<<<<< HEAD
 Please follow the below instructions to run this branch in your machine:
+=======
+Different lessons taught in this [Redux Bangla Course by Learn with Sumit](https://learnwithsumit.com/think-in-a-redux-way), are organized in separate branches with naming convention - [**module number**].[**lesson number**]. For example, **Module-1 Lesson-1** source code is shared in **1.1** branch. Just switch to a branch and follow the corresponding branch's README file instruction.
+
+Please follow the below instructions to run different branches of this repository in your machine:
+>>>>>>> 92fc89a47352fa3642b6a7ec3ea578780306f453
 
 1. Login to the GitHub account on which you have been granted access to this repository. If you have purchased the course but didn't get the access to this repository, please contact our support team. You will find contact details below.
 
@@ -40,6 +58,7 @@ Please follow the below instructions to run this branch in your machine:
    ```sh
    cd think-in-a-redux-way
    ```
+<<<<<<< HEAD
 4. Checkout/switch to branch 3.1
    ```sh
    git checkout 3.1
@@ -60,6 +79,18 @@ Please follow the below instructions to run this branch in your machine:
 
 ## ![contactIcon][contacticon-shield] Contact us
 
+=======
+4. Checkout/switch to your desired branch. For example to switch to branch 1.1 -
+   ```sh
+   git checkout 1.1
+   ```
+5. Follow the corresponding branch's README file instruction to run code.
+
+<!-- CONTACT  -->
+
+## ![contactIcon][contacticon-shield] Contact us
+
+>>>>>>> 92fc89a47352fa3642b6a7ec3ea578780306f453
 [![Facebook][facebook-shield]][facebook-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
 [![Instagram][instagram-shield]][instagram-url]
