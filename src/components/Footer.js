@@ -22,7 +22,8 @@ export default function Footer() {
     const filters = useSelector(state => state.filters)
     
     const {status, colors} = filters
-    console.log(colors);
+    console.log(filters);
+  
    
     const dispatch = useDispatch()
 
@@ -35,8 +36,8 @@ export default function Footer() {
    
 
     const handelColorChange = (color ) => {
-        if(color.includes(color)){
-            dispatch(colorChange(color, "removed"))
+        if(colors.includes(color)){
+            dispatch(colorChange(color, "remove"))
         }else {
             dispatch(colorChange(color, 'added'))
 
@@ -58,11 +59,14 @@ export default function Footer() {
                 <li></li>
                 <li className={`h-3 w-3 border-2 border-green-500 md:hover:bg-green-500 rounded-full cursor-pointer  ${colors.includes('green') &&  "bg-green-500"}   `} onClick={() => handelColorChange("green")}></li>
 
-                <li className={`h-3 w-3 border-2 border-red-500 md:hover:bg-red-500 rounded-full cursor-pointer  ${colors.includes('red') &&  "bg-red-500"} `} onClick={() => handelColorChange("red")}></li>
+                <li className={`h-3 w-3 border-2 border-red-500 md:hover:bg-red-500 rounded-full cursor-pointer  ${colors.includes('red') &&  'bg-red-500'} `} onClick={() => handelColorChange("red")}></li>
                 
-                <li className={`h-3 w-3 border-2 border-yellow-500 md:hover:bg-yellow-500 rounded-full cursor-pointer ${colors.includes('yellow') &&  "bg-yellow-500"} `} onClick={() => handelColorChange("yellow")}></li>
+                <li className={`h-3 w-3 border-2 border-yellow-500 md:hover:bg-yellow-500 rounded-full cursor-pointer  ${colors.includes('yellow') &&  'bg-yellow-500'}`} onClick={() => handelColorChange("yellow")}></li>
             </ul>
+
+            
            
+        
         </div>
     );
 }
